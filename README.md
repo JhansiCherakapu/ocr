@@ -19,7 +19,7 @@ The application follows a modular Request-Response cycle:
 4. Response: Extracted strings are returned as a clean text stream via JavaScript.
 
 Installation & Setup
-bash
+```bash
 git clone [https://github.com/JhansiCherakapu/ocr.git](https://github.com/JhansiCherakapu/ocr.git)
 cd ocr
 pip install flask easyocr torch torchvision
