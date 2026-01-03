@@ -18,6 +18,12 @@ The application follows a modular Request-Response cycle:
 3. Extraction: The `easyocr.Reader` processes text detection and character recognition.
 4. Response: Extracted strings are returned as a clean text stream via JavaScript.
 
+
+Project Structure
+app.py — Flask server & OCR logic
+imagesuploaded/ — Directory for processed images (Auto-generated)
+templates/ — Front-end UI with Dark Theme & JS
+
 Installation & Setup
 ```bash
 git clone [https://github.com/JhansiCherakapu/ocr.git](https://github.com/JhansiCherakapu/ocr.git)
@@ -25,9 +31,5 @@ cd ocr
 pip install flask easyocr torch torchvision
 python app.py
 
-Project Structure
-app.py — Flask server & OCR logic
-imagesuploaded/ — Directory for processed images (Auto-generated)
-templates/ — Front-end UI with Dark Theme & JS
 
-Author: Jhansi Cherakapu | Aspiring Product Developer
+
